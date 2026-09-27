@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>ChatHub Privacy Policy — Draft</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.65; }
+    body { max-width: 760px; margin: auto; padding: 32px 22px 64px; }
+    h1, h2 { line-height: 1.25; } h1 { font-size: 2.3rem; } h2 { margin-top: 2rem; }
+    .notice { border: 2px solid #a66a00; padding: 16px; border-radius: 8px; }
+    a { color: #2875c7; overflow-wrap: anywhere; }
+    li { margin-bottom: 8px; }
+    @media (prefers-color-scheme: dark) { a { color: #8bbfff; } }
+  </style>
+</head>
+<body>
+<main>
+  <p>ChatHub · Android</p>
+  <h1>Privacy policy</h1>
+  <p class="notice"><strong>Unpublished draft — September 27, 2026.</strong>
+    Before publication, confirm the operator and privacy contact, reporting-service provider,
+    report and support-message retention/deletion practices, and the release configuration.
+    This draft is not a final policy for submission to Google Play.</p>
+  <p>This policy describes how ChatHub (application ID <code>app.chathub.android</code>)
+    handles information when you use its Android app. ChatHub connects to AI providers
+    and compatible endpoints that you choose.</p>
+
+  <h2>Information on your device</h2>
+  <ul>
+    <li><strong>Conversations:</strong> prompts, responses, and conversation metadata support
+      chat history and conversational context.</li>
+    <li><strong>Attachments:</strong> selected images and supported files may be copied into
+      private app storage for use with your conversations.</li>
+    <li><strong>Preferences and saved content:</strong> model choices, saved prompts,
+      saved responses, and personalization memory support the features you enable.</li>
+    <li><strong>Credentials:</strong> API keys and endpoint credentials are stored using
+      encrypted preferences backed by Android Keystore and used to authenticate requests.</li>
+  </ul>
+  <p>The current app does not require a ChatHub account and does not integrate an advertising
+    or analytics service. Android backup and device-transfer rules exclude app data.</p>
+
+  <h2>Information sent to AI providers</h2>
+  <p>When you request a response, ChatHub sends the prompt, relevant conversation context,
+    supported attachment content, and enabled personalization information to the provider
+    or endpoint selected for that request. Multi-model requests send relevant content to
+    each selected provider. Regenerating with another provider sends the context needed
+    for that request to that provider. Credentials are used for authentication.</p>
+  <p>Providers process requests under their own terms, privacy policies, retention rules,
+    and account settings. ChatHub cannot delete their copies by deleting data on your phone.
+    Review the selected provider's policy before sending personal or sensitive information.</p>
+  <p>Recipients of network requests can see connection information such as your IP address.
+    Cloud and Play-build endpoint connections use HTTPS. A separately distributed sideload
+    build may allow HTTP connections to user-configured local endpoints after a warning;
+    those connections are not encrypted in transit.</p>
+
+  <h2>Web content and external links</h2>
+  <p>Retrieving web context, displaying source favicons, or opening a link can contact the
+    relevant website. Those websites receive ordinary connection information and apply
+    their own privacy practices. Temporary web content and favicons may be cached locally.</p>
+
+  <h2>Reporting generated content</h2>
+  <p>The report feature is designed to send a report only after you review and submit it.
+    Its payload includes the category, optional comment, selected response (up to 12,000
+    characters), app version, distribution channel, Android version, and device manufacturer
+    and model. It does not separately attach your prompt, surrounding chat history,
+    attachments, credentials, advertising ID, or a persistent device identifier. Information
+    quoted within the selected response or typed into your comment is included.</p>
+  <p><strong>Draft item:</strong> reporting is not operational in the reviewed configuration.
+    Identify the receiving service, permitted access, purposes, retention period, infrastructure
+    logging, and deletion process before enabling reports and publishing the final policy.</p>
+
+  <h2>Retention, deletion, and your choices</h2>
+  <p>You can delete conversations and use <strong>Privacy &amp; data</strong> to delete chats,
+    memory, provider keys, or all local app data. Saved content and settings can also be
+    removed by clearing all local app data. Local information remains until removed through
+    the relevant controls or Android's app-data controls; cached files may be cleared sooner.</p>
+  <p>Exported or shared files can remain in Downloads or in the destination you selected.
+    Deleting ChatHub data does not delete those copies or data retained by AI providers.
+    Use the destination's controls to manage them. Removing a stored key does not revoke
+    it at the provider; use the provider's account settings to revoke it.</p>
+
+  <h2>Security</h2>
+  <p>ChatHub uses private app storage, encrypted credential storage, and HTTPS for cloud
+    requests. These measures reduce risk but cannot guarantee absolute security.
+    Only send information you intend the selected service to process.</p>
+
+  <h2>Age suitability</h2>
+  <p>ChatHub is intended for adults aged 18 or older and asks for age confirmation during onboarding.</p>
+
+  <h2>This policy website</h2>
+  <p>The planned policy page uses GitHub Pages. The page itself contains no analytics scripts,
+    forms, or third-party fonts. GitHub processes website connection information under the
+    <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+
+  <h2>Contact and updates</h2>
+  <p>For privacy questions, support, or requests to delete information held by the ChatHub
+    operator, contact <a href="mailto:mohammedshabaz543@gmail.com">mohammedshabaz543@gmail.com</a>.</p>
+  <p><strong>Draft item:</strong> confirm the ChatHub operator, support-correspondence retention,
+    and the process for handling deletion requests before publishing.</p>
+  <p>The final policy will show its effective date. Updates should reflect changes in app features
+    and actual data-handling practices.</p>
+</main>
+</body>
+</html>
